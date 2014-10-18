@@ -1,0 +1,117 @@
+ul.ds_tabs { 
+position: relative; 
+z-index: 1000; 
+float: left; 
+}
+ul.ds_tabs li {
+position: relative; 
+overflow: hidden; 
+height: 26px; 
+float: left; 
+margin: 0; 
+padding: 0; 
+line-height: 26px; 
+background-color: #a0c227;
+border: 1px solid; 
+border-color: #fff #fff #969696 #fff;
+}
+ul.ds_tabs li  a{ 
+display: block; 
+padding: 0 10px; 
+outline: none; 
+text-decoration: none;
+color: #fff;
+}
+html ul.ds_tabs li.active, 
+html ul.ds_tabs li.active a:hover { 
+background-color: #fff; 
+border-color: #969696 #969696 #fff #969696 !important; 
+}
+
+.ds_tabs a:hover {
+  background: none repeat scroll 0 0 #969696;
+}
+
+.widget-area .widget .ds_tabs a  { 
+color: #FFFFFF; 
+}
+.ds_tab_container {
+position: relative; 
+top: -1px; 
+z-index: 999; 
+width: 100%; 
+float: left; 
+font-size: 11px; 
+background-color: #fff; 
+border: 1px solid #969696;
+}
+.ds_tab_content { 
+padding: 7px 0 0;
+line-height: 1.5;
+}
+.ds_tab_content ul { 
+margin: 0;
+padding: 0; 
+list-style: none; 
+}
+.ds_tab_content li { 
+margin: 3px 0;
+ }
+.ds_tab-clear {
+clear:both;
+}
+
+.ds_tabs {
+  margin-bottom: 0;
+}
+
+ul.ds_tabs li.active > a {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+.customisable-border {
+  border: 0  solid #e8e8e8 !important;
+}
+
+.scuttle_subscribe {
+  padding: 6px 18px 18px 18px;
+}
+
+.scuttle_subscribe button {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: none repeat scroll 0 0 #a0c227;
+  border-color: -moz-use-text-color;
+  border-image: none;
+  border-radius: 3px;
+  border-style: none;
+  border-width: 0 3px 0 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 7px 20px;
+  width: 100%;
+}
+
+.scuttle_subscribe > p {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.scuttle_subscribe label {
+  font-weight: bold;
+}
+
+.scuttle_subscribe input {
+  background-color: #eaeaea;
+  border: 1px solid #969696;
+  font-size: 18px;
+  line-height: 36px;
+  padding: 0 0 0 5px;
+  width: 97%;
+}
